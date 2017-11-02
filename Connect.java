@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.net.InetAddress;
 import java.net.Socket;
 
-public class Main {
+public class Connect {
     public static void main(String[] args) {
         try {
             Socket client = new Socket("46.101.3.244", 5000);
